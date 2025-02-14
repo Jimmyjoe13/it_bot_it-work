@@ -9,6 +9,11 @@
     --radius-lg: 12px;
     --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.1);
     --text-primary: #2c3e50;
+    --avatar-bg: #eee;
+    --assistant-avatar-bg: #2563eb;
+    --user-avatar-bg: #059669;
+    --text-muted: #999;
+    --success-color: #059669;
 }
 
 * {
@@ -82,11 +87,10 @@ body {
 
 .message-group {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: messageAppear 0.3s ease forwards;
+    align-items: flex-start;
+    margin: 1rem 0;
+    gap: 0.5rem;
+    animation: fadeIn 0.3s ease-out;
 }
 
 .message-group.right {
@@ -94,136 +98,115 @@ body {
 }
 
 .message-content {
-    flex: 1;
     max-width: 80%;
 }
 
-.message {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
 .message-bubble {
-    padding: 1rem 1.25rem;
+    padding: 0.75rem 1rem;
     border-radius: 1rem;
-    position: relative;
-    color: var(--text-primary);
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    margin-bottom: 0.25rem;
 }
 
 .message.assistant .message-bubble {
-    background: rgba(66, 133, 244, 0.1);
-    border: 1px solid rgba(66, 133, 244, 0.2);
+    border-top-left-radius: 0;
 }
 
 .message.user .message-bubble {
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 0;
 }
 
-.message-bubble h2 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
-.message-bubble p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-.message-actions {
+.message-info {
     display: flex;
-    justify-content: flex-end;
-    gap: 0.5rem;
-    opacity: 0;
-    transition: opacity 0.2s ease;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
 }
 
-.message:hover .message-actions {
-    opacity: 1;
+.message-time {
+    color: var(--text-muted);
 }
 
 .action-button {
-    padding: 0.25rem;
+    background: none;
     border: none;
-    background: transparent;
-    color: var(--text-secondary);
+    padding: 0.25rem;
     cursor: pointer;
-    border-radius: 0.25rem;
-    transition: all 0.2s ease;
+    color: var(--text-muted);
+    opacity: 0;
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.message:hover .action-button {
+    opacity: 1;
 }
 
 .action-button:hover {
-    background: rgba(0, 0, 0, 0.05);
-    color: var(--primary-color);
+    color: var(--text-primary);
+}
+
+.action-button.copied {
+    color: var(--success-color, #059669);
 }
 
 .avatar {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+    background: var(--avatar-bg);
 }
 
 .assistant-avatar {
-    background: linear-gradient(135deg, #4285f4, #34a853);
-    color: white;
+    background: var(--assistant-avatar-bg, #2563eb);
 }
 
 .user-avatar {
-    background: linear-gradient(135deg, #673ab7, #9c27b0);
-    color: white;
+    background: var(--user-avatar-bg, #059669);
 }
 
 .bot-icon, .user-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 
-@keyframes messageAppear {
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.message-group.welcome {
-    margin-bottom: 2rem;
+.welcome-bubble {
+    background: linear-gradient(135deg, rgba(66, 133, 244, 0.15), rgba(52, 168, 83, 0.15)) !important;
+    border: 1px solid rgba(66, 133, 244, 0.3) !important;
 }
 
-.welcome .message-bubble {
-    background: linear-gradient(135deg, rgba(66, 133, 244, 0.1), rgba(52, 168, 83, 0.1));
-    border: 1px solid rgba(66, 133, 244, 0.2);
+.welcome-bubble h2 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
-.chat-messages::-webkit-scrollbar {
-    width: 6px;
-}
-
-.chat-messages::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.chat-messages::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-}
-
-.chat-messages::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.3);
+.welcome-bubble p {
+    margin: 0;
+    color: var(--text-primary);
+    opacity: 0.9;
 }
 
 .theme-dark .message-bubble {
     background: rgba(45, 45, 45, 0.9);
+    border-color: rgba(255, 255, 255, 0.1);
     color: #fff;
 }
 
@@ -233,8 +216,12 @@ body {
 }
 
 .theme-dark .message.user .message-bubble {
-    background: rgba(45, 45, 45, 0.95);
-    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(103, 58, 183, 0.15);
+    border-color: rgba(103, 58, 183, 0.3);
+}
+
+.theme-dark .message-time {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .theme-dark .action-button {
@@ -276,59 +263,6 @@ body {
 
 #chat-form button:hover {
     background-color: #2980b9;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Bulle de dialogue */
-.speech-bubble {
-    position: relative;
-    background-color: rgba(33, 150, 243, 0.9);
-    color: white;
-    padding: 1rem;
-    border-radius: 12px;
-    margin: 1rem auto;
-    max-width: 80%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    animation: fadeIn 0.5s ease-out;
-}
-
-.speech-bubble::before {
-    content: '';
-    position: absolute;
-    left: 30px;
-    top: -20px;
-    border: 10px solid transparent;
-    border-bottom-color: rgba(33, 150, 243, 0.9);
-}
-
-.speech-bubble h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.4;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* Responsive Design */

@@ -10,9 +10,10 @@
     <div class="chat-container">
         <div class="chat-header">
             <h1>IT-Bot - Votre assistant virtuel</h1>
-            <button onclick="clearHistory()" class="clear-button">Effacer l'historique</button>
+            <button id="clear-button" class="clear-button">Effacer l'historique</button>
         </div>
         <div class="chat-messages" id="chat-messages">
+            <!-- Message de bienvenue -->
             <div class="message-group welcome">
                 <div class="avatar assistant-avatar">
                     <svg viewBox="0 0 24 24" class="bot-icon">
@@ -21,19 +22,15 @@
                 </div>
                 <div class="message-content">
                     <div class="message assistant">
-                        <div class="message-bubble">
+                        <div class="message-bubble welcome-bubble">
                             <h2>Bonjour, je suis IT-Bot 👋</h2>
                             <p>Je suis votre assistant virtuel spécialisé en informatique. Comment puis-je vous aider aujourd'hui ?</p>
-                        </div>
-                        <div class="message-actions">
-                            <button class="action-button" title="Copier">
-                                <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
-                            </button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Messages de la conversation -->
             {% for message in messages %}
             <div class="message-group {% if message.role == 'assistant' %}left{% else %}right{% endif %}">
                 {% if message.role == 'assistant' %}
@@ -48,10 +45,13 @@
                         <div class="message-bubble">
                             {{ message.content | safe }}
                         </div>
-                        <div class="message-actions">
-                            <button class="action-button" title="Copier">
-                                <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
-                            </button>
+                        <div class="message-info">
+                            <span class="message-time">{{ message.role | title }}</span>
+                            <div class="message-actions">
+                                <button class="action-button" title="Copier" onclick="copyMessage(this)">
+                                    <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,12 +66,22 @@
             {% endfor %}
         </div>
         <div class="chat-input">
-            <form id="chat-form" onsubmit="sendMessage(event)">
+            <form id="chat-form">
                 <input type="text" id="message-input" placeholder="Écrivez votre message..." required>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
     </div>
     <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+    <script>
+        // Add event listeners when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('chat-form');
+            const clearButton = document.getElementById('clear-button');
+            
+            form.addEventListener('submit', sendMessage);
+            clearButton.addEventListener('click', clearHistory);
+        });
+    </script>
 </body>
 </html>

@@ -19,8 +19,20 @@ async def read_root(request: Request):
 
 @app.post("/chat")
 async def chat(message: str = Form(...)):
+    # Obtenir la réponse du chatbot
     response = await chatbot.get_response(message)
-    return {"response": response}
+    
+    # Créer la structure de réponse avec les messages formatés
+    return {
+        "userMessage": {
+            "content": message,
+            "role": "user"
+        },
+        "botResponse": {
+            "content": response,
+            "role": "assistant"
+        }
+    }
 
 @app.post("/clear")
 async def clear_history():
