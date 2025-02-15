@@ -1,0 +1,193 @@
+{
+  "url": "https://blog.it-work.fr/pages/services#conseil",
+  "title": "Nos Services - IT Work",
+  "main_content": [
+    {
+      "type": "h1",
+      "content": "Nos Solutions IT sur Mesure"
+    },
+    {
+      "type": "p",
+      "content": "Des services adaptés à vos besoins pour une transformation digitale réussie"
+    },
+    {
+      "type": "h3",
+      "content": "À propos"
+    },
+    {
+      "type": "p",
+      "content": "IT Work est votre partenaire de confiance pour tous vos besoins en infogérance, cybersécurité et solutions cloud. Notre expertise vous accompagne dans votre transformation numérique."
+    },
+    {
+      "type": "h3",
+      "content": "Services"
+    },
+    {
+      "type": "ul",
+      "content": "Infogérance\nCybersécurité\nSolutions Cloud\nConseil IT"
+    },
+    {
+      "type": "h3",
+      "content": "Liens Rapides"
+    },
+    {
+      "type": "ul",
+      "content": "Blog\nContact\nMentions Légales\nPolitique de Confidentialité"
+    },
+    {
+      "type": "h3",
+      "content": "Contact"
+    },
+    {
+      "type": "ul",
+      "content": "09 70 17 95 12  04 84 89 42 52\ncontact@it-work.fr\n52 Bd de la Libération 13001 Marseille"
+    },
+    {
+      "type": "service",
+      "content": "Infogérance\n\nMaintenance préventive et curative\nSupport utilisateurs\nGestion de parc informatique\nSupervision proactive\n\nDemander un devis"
+    },
+    {
+      "type": "service",
+      "content": "Solutions Cloud\n\nSauvegarde externalisée\nCloud privé et hybride\nMicrosoft 365\nMigration cloud\n\nEn savoir plus"
+    },
+    {
+      "type": "service",
+      "content": "Cybersécurité\n\nAudit de sécurité\nProtection des données\nAntivirus professionnel\nFormation utilisateurs\n\nSécuriser mon IT"
+    },
+    {
+      "type": "service",
+      "content": "Téléphonie IP\n\nStandard téléphonique\nCommunications unifiées\nVisioconférence\nIntégration CRM\n\nModerniser ma téléphonie"
+    }
+  ],
+  "meta_description": "Découvrez nos services d'infogérance, cloud, cybersécurité et téléphonie pour TPE/PME",
+  "contact_info": {
+    "phone": [
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n    })(window,document,'script','dataLayer','GTM-M6NN5FQG');",
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-M6NN5FQG');",
+      "window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-0RF0QYS7L4');",
+      "09 70 17 95 12",
+      "04 84 89 42 52",
+      "52 Bd de la Libération 13001 Marseille",
+      "© 2024 IT Work. Tous droits réservés."
+    ],
+    "email": [],
+    "address": [],
+    "social_media": [
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/company/it-work-france/posts/?feedView=all"
+      }
+    ]
+  },
+  "links": [
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Expert de l'infogérance"
+    },
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Accueil"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services",
+      "text": "Services"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/case-studies",
+      "text": "Études de cas"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Accueil"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services",
+      "text": "Services"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/case-studies",
+      "text": "Études de cas"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Demander un devis"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Demander un devis"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "En savoir plus"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Sécuriser mon IT"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Moderniser ma téléphonie"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contacter le support"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Découvrir notre expertise"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Démarrer l'accompagnement"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#infogerance",
+      "text": "Infogérance"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#cybersecurite",
+      "text": "Cybersécurité"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#cloud",
+      "text": "Solutions Cloud"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#conseil",
+      "text": "Conseil IT"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/mentions-legales",
+      "text": "Mentions Légales"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/politique-confidentialite",
+      "text": "Politique de Confidentialité"
+    }
+  ],
+  "timestamp": "2025-02-15T13:28:23.654213"
+}

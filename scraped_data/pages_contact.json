@@ -1,0 +1,148 @@
+{
+  "url": "https://blog.it-work.fr/pages/contact",
+  "title": "Contact - IT Work",
+  "main_content": [
+    {
+      "type": "h3",
+      "content": "À propos"
+    },
+    {
+      "type": "p",
+      "content": "IT Work est votre partenaire de confiance pour tous vos besoins en infogérance, cybersécurité et solutions cloud. Notre expertise vous accompagne dans votre transformation numérique."
+    },
+    {
+      "type": "h3",
+      "content": "Services"
+    },
+    {
+      "type": "ul",
+      "content": "Infogérance\nCybersécurité\nSolutions Cloud\nConseil IT"
+    },
+    {
+      "type": "h3",
+      "content": "Liens Rapides"
+    },
+    {
+      "type": "ul",
+      "content": "Blog\nContact\nMentions Légales\nPolitique de Confidentialité"
+    },
+    {
+      "type": "h3",
+      "content": "Contact"
+    },
+    {
+      "type": "ul",
+      "content": "09 70 17 95 12  04 84 89 42 52\ncontact@it-work.fr\n52 Bd de la Libération 13001 Marseille"
+    }
+  ],
+  "meta_description": "Contactez IT Work pour vos besoins en solutions informatiques, télécommunications et cloud",
+  "contact_info": {
+    "phone": [
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n    })(window,document,'script','dataLayer','GTM-M6NN5FQG');",
+      ".contact-form {\n            max-width: 600px;\n            margin: 2rem auto;\n            padding: 2rem;\n            background: var(--white);\n            border-radius: 12px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n        }\n\n        .form-group {\n            margin-bottom: 1.5rem;\n            position: relative;\n        }\n\n        .form-group label {\n            display: block;\n            margin-bottom: 0.5rem;\n            color: var(--text-color);\n            font-weight: 500;\n            transition: all 0.3s ease;\n        }\n\n        .form-group i {\n            position: absolute;\n            left: 10px;\n            top: 38px;\n            color: #666;\n        }\n\n        .form-group input,\n        .form-group textarea,\n        .form-group select {\n            width: 100%;\n            padding: 0.8rem 0.8rem 0.8rem 2.5rem;\n            border: 2px solid #ddd;\n            border-radius: 8px;\n            font-family: inherit;\n            transition: all 0.3s ease;\n            background-color: #fff;\n        }\n\n        .form-group input:focus,\n        .form-group textarea:focus,\n        .form-group select:focus {\n            border-color: var(--primary-color);\n            box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);\n            outline: none;\n        }\n\n        .form-group textarea {\n            height: 150px;\n            resize: vertical;\n        }\n\n        .error-message {\n            color: #dc3545;\n            font-size: 0.875rem;\n            margin-top: 0.25rem;\n            display: none;\n        }\n\n        .form-group.error input,\n        .form-group.error textarea,\n        .form-group.error select {\n            border-color: #dc3545;\n        }\n\n        .form-group.success input,\n        .form-group.success textarea,\n        .form-group.success select {\n            border-color: #28a745;\n        }\n\n        .contact-info {\n            text-align: center;\n            margin-bottom: 2rem;\n            padding: 1.5rem;\n            background: #f8f9fa;\n            border-radius: 8px;\n        }\n\n        .contact-info i {\n            color: var(--primary-color);\n            margin-right: 0.5rem;\n            font-size: 1.2rem;\n        }\n\n        .gdpr-consent {\n            margin: 1.5rem 0;\n            padding: 1rem;\n            background: #f8f9fa;\n            border-radius: 8px;\n            font-size: 0.9rem;\n        }\n\n        .gdpr-consent label {\n            display: flex;\n            align-items: flex-start;\n            gap: 10px;\n            cursor: pointer;\n        }\n\n        .gdpr-consent input[type=\"checkbox\"] {\n            margin-top: 3px;\n        }\n\n        .submit-button {\n            background: var(--primary-color);\n            color: white;\n            border: none;\n            padding: 1rem 2rem;\n            border-radius: 8px;\n            cursor: pointer;\n            font-weight: 600;\n            width: 100%;\n            transition: all 0.3s ease;\n        }\n\n        .submit-button:hover {\n            background: var(--primary-color-dark);\n            transform: translateY(-2px);\n        }\n\n        .submit-button:active {\n            transform: translateY(0);\n        }\n\n        @keyframes shake {\n            0%, 100% { transform: translateX(0); }\n            25% { transform: translateX(-10px); }\n            75% { transform: translateX(10px); }\n        }\n\n        .form-group.error {\n            animation: shake 0.5s ease-in-out;\n        }\n\n        .notification {\n            position: fixed;\n            top: 20px;\n            right: 20px;\n            padding: 15px 25px;\n            background: white;\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.15);\n            display: flex;\n            align-items: center;\n            gap: 10px;\n            transform: translateX(120%);\n            transition: transform 0.3s ease;\n            z-index: 1000;\n        }\n\n        .notification.show {\n            transform: translateX(0);\n        }\n\n        .notification.success {\n            border-left: 4px solid #28a745;\n        }\n\n        .notification.error {\n            border-left: 4px solid #dc3545;\n        }\n\n        .notification i {\n            font-size: 1.2em;\n        }\n\n        .notification.success i {\n            color: #28a745;\n        }\n\n        .notification.error i {\n            color: #dc3545;\n        }\n\n        .submit-button:disabled {\n            opacity: 0.7;\n            cursor: not-allowed;\n        }\n\n        .fa-spinner {\n            margin-right: 8px;\n        }",
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-M6NN5FQG');",
+      "window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-0RF0QYS7L4');",
+      "09 70 17 95 12",
+      "04 84 89 42 52",
+      "52 Bd de la Libération 13001 Marseille",
+      "Veuillez entrer un numéro de téléphone valide (10 chiffres)",
+      "Le message doit contenir au moins 10 caractères",
+      "const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwXwHQxHyWdEPHYMnVWWPxTQvbAOvNWMWXWnKJbFDDwOYwZEPKlNXSBKOFgBLXmxPDz/exec';\n\n                async function submitToGoogleSheets(formData) {\n                    try {\n                        const response = await fetch(GOOGLE_SCRIPT_URL, {\n                            method: 'POST',\n                            mode: 'no-cors',\n                            headers: {\n                                'Content-Type': 'application/json',\n                            },\n                            body: JSON.stringify({\n                                timestamp: new Date().toLocaleString('fr-FR'),\n                                name: formData.get('name'),\n                                company: formData.get('company'),\n                                email: formData.get('email'),\n                                phone: formData.get('phone'),\n                                subject: formData.get('subject'),\n                                message: formData.get('message')\n                            })\n                        });\n\n                        return true;\n                    } catch (error) {\n                        console.error('Erreur lors de l\\'envoi:', error);\n                        return false;\n                    }\n                }\n\n                function validateForm(event) {\n                    event.preventDefault();\n                    let isValid = true;\n                    const form = document.getElementById('contactForm');\n                    const formGroups = form.getElementsByClassName('form-group');\n\n                    // Réinitialiser tous les états\n                    Array.from(formGroups).forEach(group => {\n                        group.classList.remove('error', 'success');\n                    });\n\n                    // Validation du nom\n                    const name = form.name.value;\n                    if (name.length < 2) {\n                        showError(form.name, 'Le nom doit contenir au moins 2 caractères');\n                        isValid = false;\n                    } else {\n                        showSuccess(form.name);\n                    }\n\n                    // Validation de l'email\n                    const email = form.email.value;\n                    const emailRegex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;\n                    if (!emailRegex.test(email)) {\n                        showError(form.email, 'Veuillez entrer une adresse email valide');\n                        isValid = false;\n                    } else {\n                        showSuccess(form.email);\n                    }\n\n                    // Validation du téléphone si rempli\n                    const phone = form.phone.value;\n                    if (phone && !/^[0-9\\s]{10}$/.test(phone.replace(/\\s/g, ''))) {\n                        showError(form.phone, 'Veuillez entrer un numéro de téléphone valide (10 chiffres)');\n                        isValid = false;\n                    } else if (phone) {\n                        showSuccess(form.phone);\n                    }\n\n                    // Validation du sujet\n                    if (!form.subject.value) {\n                        showError(form.subject, 'Veuillez sélectionner un sujet');\n                        isValid = false;\n                    } else {\n                        showSuccess(form.subject);\n                    }\n\n                    // Validation du message\n                    if (form.message.value.length < 10) {\n                        showError(form.message, 'Le message doit contenir au moins 10 caractères');\n                        isValid = false;\n                    } else {\n                        showSuccess(form.message);\n                    }\n\n                    // Si tout est valide, envoyer à Google Sheets\n                    if (isValid) {\n                        const submitButton = form.querySelector('.submit-button');\n                        const originalText = submitButton.innerHTML;\n                        submitButton.innerHTML = '<i class=\"fas fa-spinner fa-spin\"></i> Envoi en cours...';\n                        submitButton.disabled = true;\n\n                        const formData = new FormData(form);\n                        \n                        submitToGoogleSheets(formData)\n                            .then(success => {\n                                if (success) {\n                                    showNotification('Message envoyé avec succès !', 'success');\n                                    form.reset();\n                                    Array.from(formGroups).forEach(group => {\n                                        group.classList.remove('success');\n                                    });\n                                } else {\n                                    showNotification('Erreur lors de l\\'envoi. Veuillez réessayer.', 'error');\n                                }\n                            })\n                            .catch(error => {\n                                console.error('Erreur:', error);\n                                showNotification('Erreur lors de l\\'envoi. Veuillez réessayer.', 'error');\n                            })\n                            .finally(() => {\n                                submitButton.innerHTML = originalText;\n                                submitButton.disabled = false;\n                            });\n                    }\n\n                    return false;\n                }\n\n                function showNotification(message, type) {\n                    const notification = document.createElement('div');\n                    notification.className = `notification ${type}`;\n                    notification.innerHTML = `\n                        <i class=\"fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'}\"></i>\n                        ${message}\n                    `;\n                    document.body.appendChild(notification);\n\n                    setTimeout(() => {\n                        notification.classList.add('show');\n                    }, 100);\n\n                    setTimeout(() => {\n                        notification.classList.remove('show');\n                        setTimeout(() => notification.remove(), 300);\n                    }, 3000);\n                }\n\n                function showError(input, message) {\n                    const formGroup = input.closest('.form-group');\n                    formGroup.classList.add('error');\n                    formGroup.classList.remove('success');\n                    const errorDisplay = formGroup.querySelector('.error-message');\n                    errorDisplay.style.display = 'block';\n                    errorDisplay.textContent = message;\n                }\n\n                function showSuccess(input) {\n                    const formGroup = input.closest('.form-group');\n                    formGroup.classList.add('success');\n                    formGroup.classList.remove('error');\n                    const errorDisplay = formGroup.querySelector('.error-message');\n                    errorDisplay.style.display = 'none';\n                }\n\n                // Formatage automatique du numéro de téléphone\n                document.getElementById('phone').addEventListener('input', function(e) {\n                    let x = e.target.value.replace(/\\D/g, '').match(/(\\d{0,2})(\\d{0,2})(\\d{0,2})(\\d{0,2})(\\d{0,2})/);\n                    e.target.value = !x[2] ? x[1] : x[1] + ' ' + x[2] + (!x[3] ? '' : ' ' + x[3] + (!x[4] ? '' : ' ' + x[4] + (!x[5] ? '' : ' ' + x[5])));\n                });",
+      "09 70 17 95 12",
+      "04 84 89 42 52",
+      "52 Bd de la Libération 13001 Marseille",
+      "© 2024 IT Work. Tous droits réservés."
+    ],
+    "email": [],
+    "address": [],
+    "social_media": [
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/company/it-work-france/posts/?feedView=all"
+      }
+    ]
+  },
+  "links": [
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Expert de l'infogérance"
+    },
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Accueil"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services",
+      "text": "Services"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/case-studies",
+      "text": "Études de cas"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Accueil"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services",
+      "text": "Services"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/case-studies",
+      "text": "Études de cas"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/politique-confidentialite",
+      "text": "politique de confidentialité"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#infogerance",
+      "text": "Infogérance"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#cybersecurite",
+      "text": "Cybersécurité"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#cloud",
+      "text": "Solutions Cloud"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services#conseil",
+      "text": "Conseil IT"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/mentions-legales",
+      "text": "Mentions Légales"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/politique-confidentialite",
+      "text": "Politique de Confidentialité"
+    }
+  ],
+  "timestamp": "2025-02-15T13:28:03.559043"
+}
