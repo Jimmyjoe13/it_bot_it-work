@@ -1,0 +1,94 @@
+{
+  "url": "https://blog.it-work.fr/pages/contact",
+  "title": "Contact - IT Work",
+  "meta_description": "Contactez IT Work pour vos besoins en solutions informatiques, télécommunications et cloud",
+  "headers": [
+    {
+      "type": "h2",
+      "text": "Expert de l'infogérance"
+    },
+    {
+      "type": "h2",
+      "text": "Contactez-nous"
+    },
+    {
+      "type": "h3",
+      "text": "À propos"
+    },
+    {
+      "type": "h3",
+      "text": "Services"
+    },
+    {
+      "type": "h3",
+      "text": "Liens Rapides"
+    },
+    {
+      "type": "h3",
+      "text": "Contact"
+    }
+  ],
+  "content": [
+    {
+      "type": "div",
+      "text": "09 70 17 95 12 04 84 89 42 52 contact@it-work.fr 52 Bd de la Libération 13001 Marseille"
+    },
+    {
+      "type": "p",
+      "text": "09 70 17 95 12 04 84 89 42 52"
+    },
+    {
+      "type": "p",
+      "text": "contact@it-work.fr"
+    },
+    {
+      "type": "p",
+      "text": "52 Bd de la Libération 13001 Marseille"
+    },
+    {
+      "type": "div",
+      "text": "Nom * Le nom doit contenir au moins 2 caractères"
+    },
+    {
+      "type": "div",
+      "text": "Le nom doit contenir au moins 2 caractères"
+    },
+    {
+      "type": "div",
+      "text": "Email * Veuillez entrer une adresse email valide"
+    },
+    {
+      "type": "div",
+      "text": "Veuillez entrer une adresse email valide"
+    },
+    {
+      "type": "div",
+      "text": "Téléphone Veuillez entrer un numéro de téléphone valide (10 chiffres)"
+    },
+    {
+      "type": "div",
+      "text": "Veuillez entrer un numéro de téléphone valide (10 chiffres)"
+    },
+    {
+      "type": "div",
+      "text": "Sujet * Sélectionnez un sujet Infogérance Cybersécurité Solutions Cloud Conseil IT Autre Veuillez sélectionner un sujet"
+    },
+    {
+      "type": "div",
+      "text": "Veuillez sélectionner un sujet"
+    },
+    {
+      "type": "div",
+      "text": "Message * Le message doit contenir au moins 10 caractères"
+    },
+    {
+      "type": "div",
+      "text": "Le message doit contenir au moins 10 caractères"
+    },
+    {
+      "type": "div",
+      "text": "J'accepte que mes données personnelles soient traitées conformément à la politique de confidentialité d'IT Work *"
+    }
+  ],
+  "timestamp": "2025-02-15T10:06:59.084278"
+}

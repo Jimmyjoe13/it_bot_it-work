@@ -12,6 +12,7 @@ chatbot = Chatbot()
 # Configuration des templates et des fichiers statiques
 templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static/images", StaticFiles(directory="static/images"), name="static_images")
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):

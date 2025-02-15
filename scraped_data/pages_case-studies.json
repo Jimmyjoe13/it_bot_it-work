@@ -1,0 +1,89 @@
+{
+  "url": "https://blog.it-work.fr/pages/case-studies",
+  "title": "Études de cas - IT Work Solutions",
+  "main_content": [
+    {
+      "type": "h1",
+      "content": "Nos Success Stories"
+    },
+    {
+      "type": "p",
+      "content": "Découvrez comment nous aidons nos clients à transformer leurs défis en opportunités"
+    },
+    {
+      "type": "h2",
+      "content": "Prêt à transformer votre entreprise ?"
+    },
+    {
+      "type": "p",
+      "content": "Découvrez comment IT Work peut vous aider à atteindre vos objectifs technologiques"
+    },
+    {
+      "type": "h3",
+      "content": "À propos"
+    },
+    {
+      "type": "p",
+      "content": "IT Work est votre partenaire de confiance pour tous vos besoins en infogérance, cybersécurité et solutions cloud."
+    },
+    {
+      "type": "h3",
+      "content": "Contact"
+    },
+    {
+      "type": "p",
+      "content": "Email: contact@it-work.fr"
+    },
+    {
+      "type": "p",
+      "content": "Tél: 01 23 45 67 89"
+    },
+    {
+      "type": "h3",
+      "content": "Suivez-nous"
+    }
+  ],
+  "meta_description": "Découvrez comment IT Work aide ses clients à réussir leur transformation numérique à travers nos études de cas concrets",
+  "contact_info": {
+    "phone": [
+      "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-M6NN5FQG');",
+      "window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-0RF0QYS7L4');",
+      "Tél: 01 23 45 67 89",
+      "© 2024 IT Work. Tous droits réservés."
+    ],
+    "email": [],
+    "address": [],
+    "social_media": []
+  },
+  "links": [
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Expert de l'infogérance"
+    },
+    {
+      "url": "https://blog.it-work.fr/",
+      "text": "Accueil"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/services",
+      "text": "Services"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/blog",
+      "text": "Blog"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/case-studies",
+      "text": "Études de cas"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Contact"
+    },
+    {
+      "url": "https://blog.it-work.fr/pages/contact",
+      "text": "Parlons de votre projet"
+    }
+  ],
+  "timestamp": "2025-02-15T13:28:00.846902"
+}

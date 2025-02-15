@@ -1,14 +1,25 @@
-# Chatbot IA avec Groq API
+# Chatbot IA IT-Work avec Groq API
 
-Ce projet est un chatbot intelligent utilisant l'API Groq et le modèle Deepseek-R1-Distill-Llama-70b pour générer des réponses pertinentes en français.
+Ce projet est un chatbot intelligent spécialisé sur IT-Work, utilisant l'API Groq et le modèle Deepseek-R1-Distill-Llama-70b pour générer des réponses pertinentes en français.
 
 ## Fonctionnalités
 
 - Interface web interactive et responsive
 - Traitement du langage naturel en français
+- Base de connaissances spécialisée sur IT-Work
+- Scraping automatique des sites IT-Work
 - Historique des conversations
 - Support de l'accessibilité
 - Intégration sécurisée avec l'API Groq
+
+## Composants
+
+- `app.py` : Application FastAPI principale
+- `chatbot.py` : Logique du chatbot avec intégration Groq
+- `scraper.py` : Scraper spécialisé pour les sites IT-Work
+- `knowledge_base.py` : Gestion de la base de connaissances
+- `requirements.txt` : Dépendances Python
+- `.env` : Configuration des variables d'environnement
 
 ## Prérequis
 
@@ -32,31 +43,29 @@ pip install -r requirements.txt
 - Créer un fichier `.env` à la racine du projet
 - Ajouter votre clé API Groq : `GROQ_API_KEY=votre_clé_api`
 
-## Lancement
+## Utilisation
 
-1. Démarrer le serveur :
+1. Mettre à jour la base de connaissances :
+```bash
+python scraper.py
+```
+
+2. Démarrer le serveur :
 ```bash
 python app.py
 ```
 
-2. Accéder à l'application :
+3. Accéder à l'application :
 Ouvrir votre navigateur et aller à `http://localhost:8000`
 
-## Structure du Projet
+## Structure des données
 
+Les données scrapées sont stockées dans le dossier `scraped_data` avec la structure suivante :
 ```
-chatbotia/
-├── app.py              # Application FastAPI principale
-├── chatbot.py          # Logique du chatbot
-├── requirements.txt    # Dépendances Python
-├── .env               # Configuration des variables d'environnement
-├── static/            # Fichiers statiques (CSS, JS)
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-└── templates/         # Templates HTML
-    └── index.html
+scraped_data/
+├── it-work_fr/
+├── blog_it-work_fr/
+└── landing_it-work_fr/
 ```
 
 ## Sécurité
@@ -64,6 +73,7 @@ chatbotia/
 - La clé API est stockée de manière sécurisée dans le fichier `.env`
 - Les données sensibles ne sont pas exposées côté client
 - Protection contre les injections XSS
+- Validation des URLs lors du scraping
 
 ## Contribution
 

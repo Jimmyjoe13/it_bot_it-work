@@ -1,0 +1,62 @@
+{
+  "url": "https://blog.it-work.fr/pages/case-studies",
+  "title": "Études de cas - IT Work Solutions",
+  "meta_description": "Découvrez comment IT Work aide ses clients à réussir leur transformation numérique à travers nos études de cas concrets",
+  "headers": [
+    {
+      "type": "h2",
+      "text": "Expert de l'infogérance"
+    },
+    {
+      "type": "h1",
+      "text": "Nos Success Stories"
+    },
+    {
+      "type": "h2",
+      "text": "Prêt à transformer votre entreprise ?"
+    },
+    {
+      "type": "h3",
+      "text": "À propos"
+    },
+    {
+      "type": "h3",
+      "text": "Contact"
+    },
+    {
+      "type": "h3",
+      "text": "Suivez-nous"
+    }
+  ],
+  "content": [
+    {
+      "type": "div",
+      "text": "Nos Success Stories Découvrez comment nous aidons nos clients à transformer leurs défis en opportunités"
+    },
+    {
+      "type": "p",
+      "text": "Découvrez comment nous aidons nos clients à transformer leurs défis en opportunités"
+    },
+    {
+      "type": "div",
+      "text": "Tous les secteurs Santé Industrie Services Commerce Toutes les solutions Migration Cloud Sécurité Télécommunications Services Managés"
+    },
+    {
+      "type": "div",
+      "text": "Tous les secteurs Santé Industrie Services Commerce"
+    },
+    {
+      "type": "div",
+      "text": "Toutes les solutions Migration Cloud Sécurité Télécommunications Services Managés"
+    },
+    {
+      "type": "div",
+      "text": "Prêt à transformer votre entreprise ? Découvrez comment IT Work peut vous aider à atteindre vos objectifs technologiques Parlons de votre projet"
+    },
+    {
+      "type": "p",
+      "text": "Découvrez comment IT Work peut vous aider à atteindre vos objectifs technologiques"
+    }
+  ],
+  "timestamp": "2025-02-15T10:07:12.239813"
+}
